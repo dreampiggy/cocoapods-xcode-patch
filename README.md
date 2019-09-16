@@ -6,19 +6,21 @@ And this plugin can be used to solve the compatible issue with Xcode (especially
 
 ## Installation
 
-```
-$ gem install cocoapods-xcode-patch
-```
-
-This plugin is under development. So it's not uploaded to CocoaPods official repo or rubygems.org yet. You need use the git or path dependency for this. See the usage.
-
-## Usage
+This plugin is under development. It uses the GitHub ruby gems repo.
 
 Using [Bundler](https://bundler.io/) and [Gemfile](https://bundler.io/gemfile.html) to add this plugin into your repo.
 
 ```ruby
-gem 'cocoapods-xcode-patch', :git => 'https://github.com/dreampiggy/cocoapods-xcode-patch.git', :branch => 'master'
+source "https://rubygems.org"
+
+gem 'cocoapods'
+
+source "https://rubygems.pkg.github.com/dreampiggy" do
+  gem 'cocoapods-xcode-patch'
+end
 ```
+
+## Usage
 
 Use
 
