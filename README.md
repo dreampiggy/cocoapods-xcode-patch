@@ -14,10 +14,7 @@ Using [Bundler](https://bundler.io/) and [Gemfile](https://bundler.io/gemfile.ht
 source "https://rubygems.org"
 
 gem 'cocoapods'
-
-source "https://rubygems.pkg.github.com/dreampiggy" do
-  gem 'cocoapods-xcode-patch'
-end
+gem 'cocoapods-xcode-patch', :git => 'https://github.com/dreampiggy/cocoapods-xcode-patch.git'
 ```
 
 ## Usage
