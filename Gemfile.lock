@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     cocoapods-xcode-patch (0.1.4)
-      cocoapods (~> 1.7.0)
+      cocoapods (~> 1.7)
 
 GEM
   remote: https://rubygems.org/
@@ -40,7 +40,7 @@ GEM
       fuzzy_match (~> 2.0.4)
       nap (~> 1.0)
     cocoapods-deintegrate (1.0.4)
-    cocoapods-downloader (1.2.2)
+    cocoapods-downloader (1.6.3)
     cocoapods-plugins (1.0.0)
       nap
     cocoapods-search (1.0.0)
